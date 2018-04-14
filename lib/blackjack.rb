@@ -51,6 +51,11 @@ end
 
 def invalid_command
   # code invalid_command here
+  prompt_user
+  prompt_user = get_user_input
+  if prompt_user != 's' || prompt_user != 'h'
+    return "Please enter a valid command"
+  end
 end
 
 #####################################################
