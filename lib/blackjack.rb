@@ -43,7 +43,7 @@ def hit? (card_total)
   if prompt_user == 's'
     return card_total
   end
-  if (prompt_user = get_user_input) == 'h'
+  if prompt_user == 'h'
     card_three = deal_card
     return card_total + card_three
   end
