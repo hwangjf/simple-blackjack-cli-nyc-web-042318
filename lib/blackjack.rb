@@ -40,7 +40,9 @@ def hit?
   # code hit? here
   prompt_user
   if get_user_input == 's'
-    return 
+    return card_total
+  if get_user_input == 'h'
+    deal_card
 end
 
 def invalid_command
