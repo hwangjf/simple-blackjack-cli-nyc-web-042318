@@ -38,15 +38,7 @@ end
 
 def hit?
   # code hit? here
-  prompt_user
-  if get_user_input == 's'
-    return card_total
-  if get_user_input == 'h'
-    card_three = deal_card
-    card_total = card_total + card_three
-    display_card_total(card_total)
-    return card_total
-  end
+  
 end
 
 def invalid_command
